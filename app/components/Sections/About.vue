@@ -105,11 +105,10 @@
 .photo-move {
   perspective: 1000px;
   display: inline-block; 
-}
-
-.photo-move img {
-  height: auto;
-  transform: rotateX(var(--mouseY)) rotateY(var(--mouseX)); /* Используем CSS-переменные */
-  transition: transform 0.1s ease-out; /* Плавный переход */
+    & > img  {
+    height: auto;
+    transform: rotateX(var(--mouseY)) rotateY(var(--mouseX)); /* Используем CSS-переменные */
+    transition: transform 0.1s ease-out; /* Плавный переход */
+  }
 }
 </style>
