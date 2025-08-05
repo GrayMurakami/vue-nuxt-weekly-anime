@@ -1,75 +1,45 @@
-# Nuxt Minimal Starter
+# 📺 Weekly Anime by Gray
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![screenshot](https://weekly-anime-bygray.netlify.app/picture/one_punch_man/one_punch_man.jpg)
 
-## Setup
+A stylish and animated showcase of this week's top anime picks. Built with Nuxt 3, Vue 3, and a strong focus on visual polish.  
+[🔗 Live Site](https://weekly-anime-bygray.netlify.app/)
 
-Make sure to install dependencies:
+---
+
+## 🚀 Tech Stack
+
+- ✅ **Vue 3** with Composition API and `<script setup>`
+- ✅ **Nuxt 4**
+- ✅ **JavaScript**
+- ✅ **Scoped CSS**
+- ✅ **Responsive layout (mobile-friendly)**
+- ✅ **Deployed via Netlify**
+
+---
+
+## ✨ Features
+
+- 🎴 Smooth animated cards for each anime title
+- 🌀 Hover interactions, 3D avatar movement, and scroll behavior
+- 📱 Mobile-first design with clean layout
+- 🧭 Section navigation with anchor links (Top-SIX, FAQs, About)
+- 💨 Subtle lighting, shadows, and parallax-like effects
+
+---
+
+## 🖼️ Preview
+
+| Desktop | Mobile |
+|--------|--------|
+| ![Desktop](https://weekly-anime-bygray.netlify.app/picture/jujutsu_kaisen/jujutsu_kaisen.avif) | ![Mobile](https://weekly-anime-bygray.netlify.app/image/biography.jpg) |
+
+---
+
+## ⚙️ Getting Started
 
 ```bash
-# npm
+git clone https://github.com/GrayMurakami/vue-nuxt-weekly-anime.git
+cd vue-nuxt-weekly-anime
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
