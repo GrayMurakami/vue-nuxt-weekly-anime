@@ -1,8 +1,9 @@
 # 📺 Weekly Anime by Gray
 
+A stylish and animated showcase of this week's top anime picks. Built with Nuxt 4, Vue 3, and a strong focus on visual polish.  
+
 ![screenshot](https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/desktop.jpg)
 
-A stylish and animated showcase of this week's top anime picks. Built with Nuxt 4, Vue 3, and a strong focus on visual polish.  
 
 ---
 
