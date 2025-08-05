@@ -35,8 +35,13 @@ A stylish and animated showcase of this week's top anime picks. Built with Nuxt 
 
 ## 🖼️ Preview on Mobile
 
-![Mobile](https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile.jpg)
-
+<p align="center">
+  <img src="https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile-top.jpg" width="180" />
+  &nbsp;
+  <img src="https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile-section.jpg" width="180" />
+  &nbsp;
+  <img src="https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile-footer.png" width="180" />
+</p>
 ---
 
 ## ⚙️ Getting Started
