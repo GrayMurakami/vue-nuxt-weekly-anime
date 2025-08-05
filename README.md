@@ -1,8 +1,13 @@
 # 📺 Weekly Anime by Gray
 
-![screenshot](https://weekly-anime-bygray.netlify.app/picture/screenshot/desktop.jpg)
+![screenshot](https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/desktop.jpg)
 
 A stylish and animated showcase of this week's top anime picks. Built with Nuxt 4, Vue 3, and a strong focus on visual polish.  
+
+---
+
+## 🚀 Live Demo
+
 [🔗 Live Site](https://weekly-anime-bygray.netlify.app/)
 
 ---
@@ -30,8 +35,13 @@ A stylish and animated showcase of this week's top anime picks. Built with Nuxt 
 
 ## 🖼️ Preview on Mobile
 
-| ![Mobile](https://weekly-anime-bygray.netlify.app/picture/screenshot/mobile.jpg) |
-
+<p align="center">
+  <img src="https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile-top.jpg" width="180" />
+  &nbsp;
+  <img src="https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile-section.jpg" width="180" />
+  &nbsp;
+  <img src="https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile-footer.png" width="180" />
+</p>
 ---
 
 ## ⚙️ Getting Started
