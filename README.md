@@ -1,8 +1,8 @@
 # 📺 Weekly Anime by Gray
 
-![screenshot](https://weekly-anime-bygray.netlify.app/picture/one_punch_man/one_punch_man.jpg)
+![screenshot](https://weekly-anime-bygray.netlify.app/picture/screenshot/desktop.jpg)
 
-A stylish and animated showcase of this week's top anime picks. Built with Nuxt 3, Vue 3, and a strong focus on visual polish.  
+A stylish and animated showcase of this week's top anime picks. Built with Nuxt 4, Vue 3, and a strong focus on visual polish.  
 [🔗 Live Site](https://weekly-anime-bygray.netlify.app/)
 
 ---
@@ -28,11 +28,9 @@ A stylish and animated showcase of this week's top anime picks. Built with Nuxt 
 
 ---
 
-## 🖼️ Preview
+## 🖼️ Preview on Mobile
 
-| Desktop | Mobile |
-|--------|--------|
-| ![Desktop](https://weekly-anime-bygray.netlify.app/picture/jujutsu_kaisen/jujutsu_kaisen.avif) | ![Mobile](https://weekly-anime-bygray.netlify.app/image/biography.jpg) |
+| ![Mobile](https://weekly-anime-bygray.netlify.app/picture/screenshot/mobile.jpg) |
 
 ---
 
@@ -40,6 +38,17 @@ A stylish and animated showcase of this week's top anime picks. Built with Nuxt 
 
 ```bash
 git clone https://github.com/GrayMurakami/vue-nuxt-weekly-anime.git
-cd vue-nuxt-weekly-anime
+cd coffee-break
 npm install
 npm run dev
+```
+Visit http://localhost:3000 in your browser.
+
+
+## 🏗️ Production
+Build for production on Netlify:
+
+```bash
+npm run build
+npm run preview
+
