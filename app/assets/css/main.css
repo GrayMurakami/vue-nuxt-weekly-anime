@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --app-bg: url("/image/the_fon.jpg");
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--app-bg);
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1012px;
+  margin: 100px auto 0 auto;
+  padding: 0 20px;
+}
+
+hr {
+  background-color: #66FCF1;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+.manga {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.section-text {
+  display: flex;
+  justify-content: flex-end;
+  color: #66FCF1;
+  font-size: 40px;
+  text-shadow: -5px -0px #45A29e;
+  margin: 0 50px 50px 0;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 30px 70px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: none;
+    margin: 50px auto 0 auto;
+    padding: 0 10px;
+  }
+
+  .section-text {
+    font-size: 28px;
+    margin: 0 20px 20px 0;
+  }
+}
