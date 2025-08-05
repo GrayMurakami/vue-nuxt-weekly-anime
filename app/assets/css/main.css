@@ -76,4 +76,11 @@ hr {
     font-size: 28px;
     margin: 0 20px 20px 0;
   }
+
+  hr {
+    background-color: #66FCF1;
+    border: 0;
+    height: 1px;
+    margin: 0 1em 1.5em;
+  }
 }

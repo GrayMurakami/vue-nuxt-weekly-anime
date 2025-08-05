@@ -229,6 +229,19 @@ textarea {
 }
 
 @media (max-width: 768px) {
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 110%;
+  }
+
+  .content-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+  }
+
   .contact-text {
     font-size: 14px;
     margin: 20px 20px auto auto;

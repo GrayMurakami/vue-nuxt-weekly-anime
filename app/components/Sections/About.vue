@@ -115,8 +115,9 @@
 
 @media (max-width: 768px) {
   .about-text {
-    margin: 20px;
+    margin: 30px 20px 20px;
     font-size: 14px;
+    text-align: center;
   }
 
   .about-row {

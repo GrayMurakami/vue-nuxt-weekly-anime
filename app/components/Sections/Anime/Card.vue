@@ -62,7 +62,7 @@ import { animeCards } from '~/composables/useAnimeCards';
 
 .column {
   width: 30%;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .wrapper {

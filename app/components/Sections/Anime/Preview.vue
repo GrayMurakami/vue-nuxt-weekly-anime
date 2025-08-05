@@ -92,23 +92,7 @@ function handlePreviewClick(id) {
   }
 }
 
-@media (max-width: 768px) {
-  /* .container-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 150px;
-    margin-left: auto;
-    height: auto;
-
-    & > div {
-      flex: 1 1 100%;
-      width: 80%;
-      height: auto;
-      margin-bottom: 15px;
-    }
-  } */
-   
+@media (max-width: 768px) { 
   .container-main {
     flex-direction: column;
     align-items: center;
@@ -118,14 +102,12 @@ function handlePreviewClick(id) {
     & > div {
       flex: none !important;
       width: 80%;
-      height: 60vw;
-      max-height: 300px;
+      height: 100vw;
+      max-height: 400px;
       margin-bottom: 15px;
       transition: height 0.5s ease;
 
       &:hover {
-        height: 100vw;
-        max-height: 600px;
         margin-top: 40px;
       }
     }
