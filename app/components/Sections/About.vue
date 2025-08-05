@@ -1,4 +1,5 @@
 <script setup>
+<<<<<<< HEAD
   const container = ref(null);
   const img = ref(null);
 
@@ -22,10 +23,39 @@
       image.style.setProperty('--mouseX', '0deg');
       image.style.setProperty('--mouseY', '0deg');
     });
+=======
+  const container = document.querySelector('.photo-move');
+  const img = container.querySelector('img');
+
+  container.addEventListener('mousemove', (event) => {
+    const rect = container.getBoundingClientRect();
+
+    // Координаты мыши относительно контейнера
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+
+    // Центр контейнера
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+
+    // Вычисление углов (чем дальше от центра, тем больше угол)
+    const mouseX = ((x - centerX) / centerX) * 10; // Угол наклона по X (от -10 до 10 градусов)
+    const mouseY = ((centerY - y) / centerY) * 10; // Угол наклона по Y (от -10 до 10 градусов)
+
+    // Применяем углы через CSS-переменные
+    img.style.setProperty('--mouseX', `${mouseX}deg`);
+    img.style.setProperty('--mouseY', `${mouseY}deg`);
+  });
+
+  container.addEventListener('mouseleave', () => {
+    img.style.setProperty('--mouseX', '0deg');
+    img.style.setProperty('--mouseY', '0deg');
+>>>>>>> 5c772f547ec579bc3e0d255de64a24943306cfdf
   });
 </script>
 
 <template>
+<<<<<<< HEAD
   <div class="container">
     <div class="about-me">
       <section id="about">
@@ -45,20 +75,48 @@
                     Programmer, designer, sportsman and just a positive person, who get a lot of experience in his life! This is one of the examples of my designer work. I am constantly developing and learning something new, just in one year I found a job in IT from scratch and gained many qualifications in both frontend and backend sphere. Creating sites is very interesting and entertaining for me. Maybe I am not a master in this business, but someday it will definitely become. My strong point is willpower, which helps me to achieve everything I want.!
                     <div class="about-text-do">Let's Do It!</div>
                   </div>
+=======
+  <div class="about-me">
+    <section id="about">
+      <h1 class="section-text">About</h1>
+        <div class="about-center">
+          <div class="col-md-10">
+            
+            <div class="about-center">
+              <div class="about-row col-md-1">
+                <div class="photo-move">
+                  <img src="/image/biography.jpg" class="about-photo" alt="Photo">
+                </div>
+              </div>
+
+              <div class="about-row col-md-2">
+                <div class="about-text">
+                  Programmer, designer, sportsman and just a positive person, who get a lot of experience in his life! This is one of the examples of my designer work. I am constantly developing and learning something new, just in one year I found a job in IT from scratch and gained many qualifications in both frontend and backend sphere. Creating sites is very interesting and entertaining for me. Maybe I am not a master in this business, but someday it will definitely become. My strong point is willpower, which helps me to achieve everything I want.!
+                  <div class="about-text-do">Let's Do It!</div>
+>>>>>>> 5c772f547ec579bc3e0d255de64a24943306cfdf
                 </div>
               </div>
             </div>
           </div>
+<<<<<<< HEAD
       </section>
     </div>
+=======
+        </div>
+    </section>
+>>>>>>> 5c772f547ec579bc3e0d255de64a24943306cfdf
   </div>
 </template>
 
 <style scoped>
+<<<<<<< HEAD
 .about-me {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+=======
+  /* About */
+>>>>>>> 5c772f547ec579bc3e0d255de64a24943306cfdf
 
 .about-center {
   display: flex;
@@ -112,6 +170,7 @@
     transition: transform 0.1s ease-out; /* Плавный переход */
   }
 }
+<<<<<<< HEAD
 
 @media (max-width: 768px) {
    .about-text {
@@ -128,3 +187,6 @@
   }
 }
 </style>
+=======
+</style>
+>>>>>>> 5c772f547ec579bc3e0d255de64a24943306cfdf
