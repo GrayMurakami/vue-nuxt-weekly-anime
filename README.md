@@ -3,6 +3,9 @@
 ![screenshot](https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/desktop.jpg)
 
 A stylish and animated showcase of this week's top anime picks. Built with Nuxt 4, Vue 3, and a strong focus on visual polish.  
+
+## 🚀 Live Demo
+
 [🔗 Live Site](https://weekly-anime-bygray.netlify.app/)
 
 ---
@@ -30,7 +33,7 @@ A stylish and animated showcase of this week's top anime picks. Built with Nuxt 
 
 ## 🖼️ Preview on Mobile
 
-| ![Mobile](https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile.jpg) |
+![Mobile](https://github.com/GrayMurakami/vue-nuxt-weekly-anime/blob/master/public/screenshot/mobile.jpg)
 
 ---
 
